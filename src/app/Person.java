@@ -20,11 +20,9 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", edge=" + edge +
-                ", profession='" + profession + '\'' +
-                '}';
+        return "Ім'я: " + name +
+               ", Вік: " + edge +
+                ", Професія: " + profession;
     }
 
 }
